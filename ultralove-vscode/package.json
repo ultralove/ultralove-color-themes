@@ -1,0 +1,21 @@
+{
+  "name": "ultralove-vscode",
+  "displayName": "ultralove-vscode",
+  "description": "A custom Visual Studio Code color theme for the Ultralove organization, designed to reflect the brand’s aesthetic while enhancing readability and focus.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ultralove Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ultralove Dark-color-theme.json"
+      }
+    ]
+  }
+}
